@@ -1,0 +1,53 @@
+{
+  "name": "test1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "async": "^3.1.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.4",
+    "gulp": "4.0.2",
+    "gulp-util": "~3.0.8",
+    "gulp-autoprefixer": "~7.0.0",
+    "gulp-clean": "~0.4.0",
+    "gulp-copy": "~4.0.1",
+    "gulp-csscomb": "~3.0.8",
+    "gulp-cssmin": "~0.2.0",
+    "gulp-multistream": "~0.1.2",
+    "gulp-notify": "~3.0.0",
+    "gulp-plumber": "~1.1.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-replace": "~1.0.0",
+    "gulp-rtlcss": "^1.4.0",
+    "gulp-require-tasks": "~1.2.1",
+    "gulp-sass": "~4.0.2",
+    "gulp-sequence": "~1.0.0",
+    "gulp-uglify": "~3.0.0",
+    "gulp-terser": "^1.4.0",
+    "gulp-watch": "~5.0.1",
+    "merge-stream": "~2.0.0",
+    "minimist": "~1.2.0"
+  }
+}
